@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import 'standard';
+
+.text{
+    h4{
+        color: red !important;
+        font-weight: 600;
+    }
+    h1{
+        font-size: 84px !important;
+        font-weight: 700;
+        color: #181E4B;
+    }
+    p{
+        color: #5E6282;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+.bg-img{
+    z-index: -1;
+    background-image: url("../images/Decore.png");
+    position: relative;
+    top: -120px;
+    img{
+        position: relative;
+        top: 80px;
+    }
+}
+
+.btn{
+    width: 200px;
+    height: 40px;
+}
+
+.mar{
+    margin-top: 60px !important;
+}
+
+@media screen and (max-width:1200px) {
+    .text{
+        h1{
+            font-size: 60px !important;
+        }
+    }
+}
+
+@media screen and(max-width:1000px) {
+    .res{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        .bg-img{
+            display: none;
+        }
+        .col-md-6 {
+            flex: 0 0 auto;
+            width: 100%;
+          }
+    }
+}
+
+@media screen and (max-width:800px) {
+    .text{
+        h1{
+            font-size: 48px !important;
+        }
+    }
+}
