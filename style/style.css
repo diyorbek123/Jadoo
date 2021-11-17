@@ -137,13 +137,11 @@
   .res1 h2 {
     font-size: 36px !important;
   }
-
-  .d-none-550 {
-    display: none !important;
-  }
-
-  .max-w-top {
+ .max-w-top {
     margin-top: 70px !important;
+  }
+  .d-m-550{
+    margin-top: 200px !important;
   }
 
   .res-top {
