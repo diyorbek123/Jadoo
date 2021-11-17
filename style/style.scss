@@ -27,7 +27,7 @@
     z-index: -1;
     background-image: url("../images/Decore.png");
     position: relative;
-    top: -120px;
+    top: -130px;
     img{
         position: relative;
         top: 80px;
@@ -40,7 +40,17 @@
 }
 
 .mar{
-    margin-top: 60px !important;
+    margin-top: 20px !important;
+}
+
+.navbar-nav{
+    li{
+        a{
+            &:hover{
+                color: red !important;
+            }
+        }
+    }
 }
 
 @media screen and (max-width:1200px) {
@@ -66,10 +76,33 @@
     }
 }
 
+@media screen and (max-width:990px) {
+    .res1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
 @media screen and (max-width:800px) {
     .text{
         h1{
             font-size: 48px !important;
+        }
+    }
+}
+
+
+
+@media screen and (max-width:568px) {
+    .res1{
+        h2{
+            font-size: 36px !important;
+        }
+    }
+    .text {
+        h1{
+            font-size: 32px !important;
         }
     }
 }
