@@ -127,6 +127,12 @@
         flex-direction: column;
         text-align: center;
     }
+
+.width-cover-media{
+    width: 100% !important;
+    margin: 0px !important;
+}
+
 }
 
 @media screen and (max-width:800px) {
@@ -135,6 +141,7 @@
             font-size: 48px !important;
         }
     }
+}
 
 @media screen and (max-width:568px) {
     .res1{
@@ -142,13 +149,29 @@
             font-size: 36px !important;
         }
 
+    }  
+    .d-none-550{
+        display: none !important;
     }
-    
+    .max-w-top{
+        margin-top: 70px !important;
+    }
+    .res-top{
+        display: none;
+    }
     .text {
         h1{
             font-size: 32px !important;
         }
-    
+        
     }
-}
+
+    .fs-8{
+    font-size: 10px !important;
+    padding: 2px !important;
+     }
+    .ps-5-cover{
+    width: 150px !important;
+    }
+    
 }
