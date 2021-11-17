@@ -73,3 +73,37 @@
         }
     }
 }
+
+// Iqboljon
+
+.pos-re{
+    position: relative !important;
+    color: #5E6282;
+}
+.card-pos{
+    position: absolute !important;
+    top: 195px;
+    z-index: 0 !important;
+    left: 155px;
+}
+.card-zindex-pos {
+    z-index: 1 !important;
+    position: absolute;
+    left: 35px;
+}
+.w-cover{
+    width: 80% !important;
+}
+.fs-50{
+    font-size: 50px;
+}
+.fc-#5E6282{
+    color:#5E6282;
+    font-size: 20px ;
+}
+// #DFD7F9
+.bg-end-div{
+    background-color: black !important;
+    color: #5E6282 !important;
+    border-radius: 20px 129px 20px 20px;
+}
